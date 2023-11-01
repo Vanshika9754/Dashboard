@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.main{
+  border: solid;
+  position: fixed;
+  height: 99%;
+  width: 95%;
+  right: 6;
+  left: 10;
+  top: 5;
+  bottom: 0;
+}
+
+.star{
+    cursor: pointer;
+   color: rgb(152, 152, 155);
+}
+.input_star[type=radio]{
+    display: none;
+    
+}
+.logo{
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(131, 131, 131);
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.gender{
+  color: grey;
+}
+
+.driver_name, .date_register{
+    width: 20vw;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+
+.driver_name:focus ,.date_register:focus, .phone-no:focus, .gender:focus, .email:focus, .Vehicle:focus, .dropdown1:focus{
+    outline: none;
+    border-color: #86b7fe;
+    box-shadow: 0 0 5px #86b7fe;
+    color: grey;
+}
+.rating{
+
+    width: 100vw;
+    padding-left: 135px;
+    padding-top: 15px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+.inside{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    padding-left: 30px;
+    
+ 
+}
+
+.label{
+
+justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  
+}
+
+.child{
+  float: left;
+  padding: 20px;
+}
+
+.document-no {
+  position: absolute;
+ 
+  
+}
+
+
+.phone-no, .gender, .email, .Vehicle, .dropdown1{
+    width: 12vw;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: grey;
+    
+}
+.mainContainer{
+    /* border: 2px solid black; */
+    padding-left: 180px;
+    padding-right: 180px;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .Container2{
+  border: 2px solid black;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+} */
+.Container2 {
+  border: 2px solid black;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images{
+  position: absolute;
+  top: 60%;
+  padding-left: 180px;
+    padding-right: 180px;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+}
+
+.number{
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+}
+
+.rides, .earning{
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  display: flex;
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .input_star {
+    display: none;
+  }
+  
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star:hover {
+    color: gold;
+  }
+  
+  .radio {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .radio input {
+    margin-right: 5px;
+  }
+  
+  .dropdown {
+    margin-top: 10px;
+  }
+  
+  .dropdown select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  input[type="email"] {
+    padding: 10px;
+    width: 20%;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-color: #86b7fe;
+    box-shadow: 0 0 5px #86b7fe;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="date"]::placeholder,
+  input[type="number"]::placeholder,
+  input[type="email"]::placeholder {
+    color: #a0a0a0;
+  }
+  
+  
+  */
